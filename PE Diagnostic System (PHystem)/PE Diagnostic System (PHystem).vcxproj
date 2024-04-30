@@ -127,22 +127,25 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="C:\Users\gemrh\source\repos\PE Diagnostic System (PHystem)\PE Diagnostic System (PHystem)\MyForm.resx" />
+    <EmbeddedResource Include="BMIForm.resx">
+      <DependentUpon>BMIForm.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyForm1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="BMIForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="MyForm.resx">
-      <DependentUpon>MyForm.h</DependentUpon>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\zeno-ex-machina-yellow-018.jpg" />
     <Image Include="ExitButton.BackgroundImage.bmp" />
     <Image Include="ExitButton.bmp" />
     <Image Include="TopPanel.bmp" />
