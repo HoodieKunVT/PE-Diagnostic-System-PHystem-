@@ -127,22 +127,45 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="C:\Users\gemrh\source\repos\PE Diagnostic System (PHystem)\PE Diagnostic System (PHystem)\MyForm.resx" />
-    <EmbeddedResource Include="BMIForm.resx">
-      <DependentUpon>BMIForm.h</DependentUpon>
+    <EmbeddedResource Include="TicketCheckout.resx">
+      <DependentUpon>TicketCheckout.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeatSelection.resx">
+      <DependentUpon>SeatSelection.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketMenu.resx">
+      <DependentUpon>TicketMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchedMenu.resx">
+      <DependentUpon>SchedMenu.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="MyForm11.cpp" />
+    <ClCompile Include="MyForm12.cpp" />
+    <ClCompile Include="MyForm13.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
-    <ClInclude Include="BMIForm.h">
+    <ClInclude Include="TicketCheckout.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="SeatSelection.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TicketMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SchedMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Train.h" />
+    <ClInclude Include="TrainStation.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Downloads\zeno-ex-machina-yellow-018.jpg" />
